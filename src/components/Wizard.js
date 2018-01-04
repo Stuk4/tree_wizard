@@ -2,7 +2,6 @@ import React, { Component, Fragment } from 'react'
 import StepZilla from 'react-stepzilla'
 
 import Familia from './steps/Familia'
-import Step3 from './steps/Step3'
 import Energy from './steps/Energy'
 import Gas from './steps/Gas'
 import TranspPub from './steps/TranspPub'
@@ -11,6 +10,7 @@ import Viajes from './steps/Viajes'
 import Dieta from './steps/Dieta'
 import Dieta2 from './steps/Dieta2'
 import Otros from './steps/Otros'
+import Resultado from './steps/Resultado'
 
 
 
@@ -51,7 +51,7 @@ export default class Wizard extends Component {
 	render() {
 
 		const steps = [
-			{ name: 'Paso 1', component: <Familia getHuellaCarbonoData={() => (this.getHuellaCarbonoData())} update={(u) => {this.update(u)}} /> },
+			/*{ name: 'Paso 1', component: <Familia getHuellaCarbonoData={() => (this.getHuellaCarbonoData())} update={(u) => {this.update(u)}} /> },
 			{ name: 'Paso 2', component: <Energy getHuellaCarbonoData={() => (this.getHuellaCarbonoData())} update={(u) => {this.update(u)}} /> },
 			{ name: 'Paso 3', component: <Gas getHuellaCarbonoData={() => (this.getHuellaCarbonoData())} update={(u) => {this.update(u)}} /> },
 			{ name: 'Paso 4', component: <TranspPub getHuellaCarbonoData={() => (this.getHuellaCarbonoData())} update={(u) => {this.update(u)}}/> },
@@ -59,7 +59,8 @@ export default class Wizard extends Component {
 			{ name: 'Paso 6', component: <Viajes getHuellaCarbonoData={() => (this.getHuellaCarbonoData())} update={(u) => {this.update(u)}}/> },
 			{ name: 'Paso 7', component: <Dieta getHuellaCarbonoData={() => (this.getHuellaCarbonoData())} update={(u) => {this.update(u)}}/> },
 			{ name: 'Paso 8', component: <Dieta2 getHuellaCarbonoData={() => (this.getHuellaCarbonoData())} update={(u) => {this.update(u)}}/> },
-			{ name: 'Paso 9', component: <Otros getHuellaCarbonoData={() => (this.getHuellaCarbonoData())} update={(u) => {this.update(u)}}/> },
+			{ name: 'Paso 9', component: <Otros getHuellaCarbonoData={() => (this.getHuellaCarbonoData())} update={(u) => {this.update(u)}}/> },*/
+			{ name: 'Resultado', component: <Resultado getHuellaCarbonoData={() => (this.getHuellaCarbonoData())}/> },
 
 		]
 

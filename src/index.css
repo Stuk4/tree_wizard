@@ -1,10 +1,39 @@
 body {
   margin: 0;
-	padding-top: 50px;
+	padding-top: 120px;
   padding-bottom: 20px;
   font-family: sans-serif;
 }
 
+.medicion {
+  color: #8d934e;
+}
+
+.panel-primary {
+    border-color: #8d934e;
+}
+
+.panel-primary>.panel-heading {
+  background-color: #8d934e;
+  border-color: #8d934e
+}
+
+
+.btn-primary:active {
+  // click styles here
+  background-color: #8d934e;
+  border-color: #8d934e;
+}
+
+.btn-primary {
+    background-color: #8d934e;
+    border-color: #8d934e;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    background-color: #8d934e;
+    border-color: #8d934e; /*set the color you want here*/
+}
 /* --- */
 
 .progtrckr {

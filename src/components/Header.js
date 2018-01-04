@@ -14,11 +14,11 @@ export default function Header() {
 						<span className="icon-bar"></span>
 						<span className="icon-bar"></span>
 					</button>
-					<a className="navbar-brand">Pachamama Corazon</a>
+					<img src="pachamama_corazon.jpg" alt="pachamama corazon" width="120	"/>
 				</div>
 
 				<div id="navbar"
-				className="navbar-collapse collapse" 
+				className="navbar-collapse collapse"
 				aria-expanded="false" style={{ height: '1px' }}>
 					{/* nav goes here */}
 				</div>

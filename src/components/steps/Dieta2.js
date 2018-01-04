@@ -74,7 +74,7 @@ export default class Dieta2 extends Component {
 													</label>
 
 													<div className="col-md-3">
-														<input type="number" ref="frutas" defaultValue={this.state.frutas} class="form-control" placeholder="Unidades"/>
+														<input type="number" ref="frutas" defaultValue={this.state.frutas} class="form-control" placeholder="Kilos"/>
 													</div>
 				 </div>
 
@@ -84,7 +84,7 @@ export default class Dieta2 extends Component {
 												 </label>
 
 												 <div className="col-md-3">
-													 <input type="number" ref="vegetales" defaultValue={this.state.vegetales} class="form-control" placeholder="Unidades"/>
+													 <input type="number" ref="vegetales" defaultValue={this.state.vegetales} class="form-control" placeholder="Kilos"/>
 												 </div>
 				</div>
 
