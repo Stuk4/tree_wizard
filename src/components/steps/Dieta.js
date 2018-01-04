@@ -42,6 +42,10 @@ export default class Dieta extends Component {
 					</div>
 					<div class="panel-body">
 
+					<p className="text-center">
+						<img src="food.png"/>
+					</p>
+
 						<p>
 							Sobre tu dieta, cuantas porciones de carne consumes en una semana?
 						</p>

@@ -37,6 +37,11 @@ export default class TranspPub extends Component {
 					</div>
 					<div class="panel-body">
 
+					<p className="text-center">
+						<img src="bus.png"/>
+					</p>
+
+
 						<p>
 							Cuantas horas semanales usas estos servicios?
 						</p>

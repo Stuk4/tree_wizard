@@ -33,6 +33,10 @@ export default class Energy extends  Component {
 					</div>
 					<div class="panel-body">
 
+					<p className="text-center">
+						<img src="energy.png"/>
+					</p>
+
 						<p>
 							Cuantas gastas de energia electrica al mes?
 						</p>

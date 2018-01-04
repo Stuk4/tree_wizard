@@ -33,11 +33,13 @@ export default class Familia extends Component {
  				</div>
  				<div class="panel-body">
 
+					<p className="text-center">
+						<img src="family.png"/>
+					</p>
+
  					<p>
  						Cuantas personas viven en tu casa ?
  					</p>
-
-					<img src="https://cdn2.iconfinder.com/data/icons/green-energy-initiative-1/100/co2-128.png" alt="Mountain View"/>
 
  					<p>
  					<select id="title"

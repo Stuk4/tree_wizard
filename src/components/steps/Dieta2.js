@@ -40,6 +40,10 @@ export default class Dieta2 extends Component {
 					</div>
 					<div class="panel-body">
 
+					<p className="text-center">
+						<img src="food2.png"/>
+					</p>
+
 						<p>
 							Sobre tu dieta, cuantas porciones de productos de origen vegental consumes en una semana?
 						</p>

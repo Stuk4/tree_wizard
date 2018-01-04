@@ -39,6 +39,10 @@ export default class VehiculoPropio extends Component {
 					</div>
 					<div class="panel-body">
 
+					<p className="text-center">
+						<img src="car.png"/>
+					</p>
+
 						<p>
 							Que tipo de vehiculo tienes?
 						</p>

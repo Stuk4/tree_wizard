@@ -40,6 +40,10 @@ export default class Otros extends Component {
 					</div>
 					<div class="panel-body">
 
+					<p className="text-center">
+						<img src="botella.png"/>
+					</p>
+
 						<p>
 							Cuantos de estos residuos que generas a la semana?
 						</p>

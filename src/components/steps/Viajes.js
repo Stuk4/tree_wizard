@@ -38,6 +38,10 @@ export default class Viajes extends Component {
 					</div>
 					<div class="panel-body">
 
+					<p className="text-center">
+						<img src="travel.png"/>
+					</p>
+
 						<p>
 							Cuantas horas al año viajas en los siguientes medios de transporte?
 						</p>
