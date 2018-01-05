@@ -13,7 +13,8 @@ export default class Resultado extends Component{
 			dietaAnimal : 0,
 			dietaVegetal : 0,
 			botellas : 0,
-			total : 0
+			total : 0,
+			totalArboles : 0
 		}
 
 	}
@@ -181,6 +182,7 @@ export default class Resultado extends Component{
 
 			this.state.vehiculoPropio =  this.state.convertation * this.state.data.gastoCombustible;
 			this.state.total = this.state.total + this.state.vehiculoPropio;
+			this.state.totalArboles = this.state.total ;
 
 	 return (
 		 <div>
@@ -197,7 +199,7 @@ export default class Resultado extends Component{
  				</p>
 
 				<p className="text-center medicion">
-				    <h2>Tu huella de carbono anual es de : {this.state.total} Toneladas de CO2 </h2>
+				    <h2>Tu huella de carbono anual es de : <b>{this.state.total}</b> Toneladas de CO2 </h2>
  				</p>
 
 				<p className="text-center medicion">
