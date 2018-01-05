@@ -182,7 +182,7 @@ export default class Resultado extends Component{
 
 			this.state.vehiculoPropio =  this.state.convertation * this.state.data.gastoCombustible;
 			this.state.total = this.state.total + this.state.vehiculoPropio;
-			this.state.totalArboles = this.state.total ;
+			this.state.totalArboles = Math.trunc(this.state.total / 7.92) ;
 
 	 return (
 		 <div>
@@ -203,7 +203,7 @@ export default class Resultado extends Component{
  				</p>
 
 				<p className="text-center medicion">
-						<h2>Debes sembrar: 2 Arboles <img src="arbol.png"/><img src="arbol.png"/></h2>
+						<h2>Debes sembrar: <b>{this.state.totalArboles}</b> <img src="arbol.png"/></h2>
 				</p>
 
  				</div>
