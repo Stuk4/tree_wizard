@@ -45,7 +45,7 @@ export default class Otros extends Component {
 					</p>
 
 						<p>
-							Cuantos de estos residuos que generas a la semana?
+							Cuantos de estos residuos generas a la semana?
 						</p>
 						<form id="Form" className="form-horizontal">
 						<div className="form-group col-md-12 content form-block-holder">
